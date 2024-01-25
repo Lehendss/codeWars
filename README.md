@@ -1,0 +1,2 @@
+# codeWars
+Just to practice 
