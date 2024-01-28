@@ -27,7 +27,7 @@ char    *are_you_playing_banjo(const char *name)
     char    *no;
 
     no = " does not play banjo";
-    buffer = (char *)malloc(strlen(name) + 20);
+    buffer = (char *)malloc(strlen(no)rlen(name) + strlen(no));
     strcpy(buffer, name);
     if (name[0] == 'R' || name[0] == 'r')
         strcat(buffer, " plays banjo");
