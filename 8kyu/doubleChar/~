@@ -1,0 +1,10 @@
+char    *double_char(const char *string, char *doubled)
+{
+    int i;
+
+    i = -1;
+    while (string[++i])
+        doubled[i] = string[i];
+    doubled[i] = '\0';
+    return doubled;
+}
